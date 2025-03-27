@@ -3,8 +3,23 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        signature();
         SingleGame sg = new SingleGame();
         sg.game();
+    }
+
+    public static void signature(){
+        String s = """ 
+                ********************************************************
+                *                                                      *
+                *    This is a classical guess game.                   *
+                *    Test the function of try-catch and git submit     *
+                *    By biggboss01, 2025/03/27                         *
+                *                                                      *
+                ********************************************************
+                
+                """;
+        System.out.println(s);
     }
 }
 
